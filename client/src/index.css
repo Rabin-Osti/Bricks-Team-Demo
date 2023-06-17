@@ -1,0 +1,35 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  
+}
+:root{
+  font-family: 'Poppins', sans-serif;
+}
+.wrapper{
+  max-width: 1140px;
+  padding: 0 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 0 auto;
+}
+.bricks-container{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+.navbar{
+  width: 100%;
+  height: 80px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.navbar button,input{
+  font-size: 20px;
+  padding: 10px;
+}
